@@ -1,1 +1,79 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>تواصل معنا | KNDL</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><header class="site-header"><a class="logo" href="index.html"><img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-logo.png" alt="KNDL"></a><nav class="nav"><a href="index.html">الرئيسية</a><a href="about.html">عن كندل</a><a href="services.html">الخدمات</a><a href="projects.html">المشاريع</a><a href="media.html">المركز الإعلامي</a><a class="active" href="contact.html">تواصل معنا</a></nav><a class="header-cta" href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></header><main><section class="page-hero reveal"><div><span class="eyebrow">CONTACT US</span><h1>تواصل معنا</h1><p>تواصل مع فريق كندل لمناقشة متطلبات مشروعك أو طلب معلومات إضافية.</p></div></section><section class="section grid-2 reveal"><div class="contact-box"><h2>KNDL Construction Co.</h2><p>الرياض – المملكة العربية السعودية<br>حي الواحة – طريق عثمان بن عفان</p><br><p><strong>الهاتف:</strong> 920004826<br><strong>البريد:</strong> <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a><br><strong>الموقع:</strong> www.kndl.com.sa</p></div><div class="contact-box"><h2>أرسل طلبك</h2><form class="form"><input placeholder="الاسم الكامل"><input placeholder="اسم الشركة"><input placeholder="البريد الإلكتروني"><input placeholder="رقم الجوال"><textarea placeholder="تفاصيل الطلب"></textarea><a class="btn primary" href="mailto:info@kndl.com.sa">إرسال الطلب</a></form></div></section></main><footer class="site-footer"><img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-symbol.png" alt="KNDL"><p>© KNDL Construction Co. — <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></p></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل معنا | KNDL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-logo.png" alt="KNDL"></a>
+    <nav class="nav">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">عن كندل</a>
+      <a href="services.html">الخدمات</a>
+      <a href="projects.html">المشاريع</a>
+      <a href="media.html">المركز الإعلامي</a>
+      <a class="active" href="contact.html">تواصل معنا</a>
+    </nav>
+    <a class="header-cta" href="mailto:info@kndl.com.sa">info@kndl.com.sa</a>
+    <button class="hamburger" aria-label="القائمة" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="mobile-overlay"></div>
+  <nav class="mobile-nav">
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">عن كندل</a>
+    <a href="services.html">الخدمات</a>
+    <a href="projects.html">المشاريع</a>
+    <a href="media.html">المركز الإعلامي</a>
+    <a href="contact.html" class="active">تواصل معنا</a>
+    <div class="mobile-nav-cta"><a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></div>
+  </nav>
+
+  <main>
+    <section class="page-hero reveal">
+      <div>
+        <span class="eyebrow">CONTACT US</span>
+        <h1>تواصل معنا</h1>
+        <p>تواصل مع فريق كندل لمناقشة متطلبات مشروعك أو طلب معلومات إضافية.</p>
+      </div>
+    </section>
+
+    <section class="section grid-2 reveal">
+      <div class="contact-box">
+        <h2>KNDL Construction Co.</h2>
+        <p>الرياض – المملكة العربية السعودية<br>حي الواحة – طريق عثمان بن عفان</p>
+        <br>
+        <p>
+          <strong>الهاتف:</strong> 920004826<br>
+          <strong>البريد:</strong> <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a><br>
+          <strong>الموقع:</strong> www.kndl.com.sa
+        </p>
+      </div>
+      <div class="contact-box">
+        <h2>أرسل طلبك</h2>
+        <form class="form">
+          <input placeholder="الاسم الكامل">
+          <input placeholder="اسم الشركة">
+          <input placeholder="البريد الإلكتروني">
+          <input placeholder="رقم الجوال">
+          <textarea placeholder="تفاصيل الطلب"></textarea>
+          <a class="btn primary" href="mailto:info@kndl.com.sa">إرسال الطلب</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-symbol.png" alt="KNDL">
+    <p>© KNDL Construction Co. — <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
