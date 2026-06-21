@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" class="lang-ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>خدمات كندل</title>
+  <title>خدمات كندل | KNDL Services</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,32 +15,40 @@
 <body>
   <header class="site-header">
     <a class="logo" href="index.html"><img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-logo.png" alt="KNDL"></a>
-    <nav class="nav"><a href="index.html">الرئيسية</a><a href="about.html">عن كندل</a><a class="active" href="services.html">الخدمات</a><a href="projects.html">المشاريع</a><a href="media.html">المركز الإعلامي</a><a href="contact.html">تواصل معنا</a></nav>
+    <nav class="nav">
+      <a href="index.html"><span data-lang="ar">الرئيسية</span><span data-lang="en">Home</span></a>
+      <a href="about.html"><span data-lang="ar">عن كندل</span><span data-lang="en">About</span></a>
+      <a class="active" href="services.html"><span data-lang="ar">الخدمات</span><span data-lang="en">Services</span></a>
+      <a href="projects.html"><span data-lang="ar">المشاريع</span><span data-lang="en">Projects</span></a>
+      <a href="media.html"><span data-lang="ar">المركز الإعلامي</span><span data-lang="en">Media Center</span></a>
+      <a href="contact.html"><span data-lang="ar">تواصل معنا</span><span data-lang="en">Contact</span></a>
+    </nav>
     <a class="header-cta" href="mailto:info@kndl.com.sa">info@kndl.com.sa</a>
+    <button class="lang-toggle" id="langToggle">EN</button>
     <button class="hamburger" aria-label="القائمة" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </header>
   <div class="mobile-overlay"></div>
   <nav class="mobile-nav">
-    <a href="index.html">الرئيسية</a>
-    <a href="about.html">عن كندل</a>
-    <a href="services.html" class="active">الخدمات</a>
-    <a href="projects.html">المشاريع</a>
-    <a href="media.html">المركز الإعلامي</a>
-    <a href="contact.html">تواصل معنا</a>
+    <a href="index.html"><span data-lang="ar">الرئيسية</span><span data-lang="en">Home</span></a>
+    <a href="about.html"><span data-lang="ar">عن كندل</span><span data-lang="en">About</span></a>
+    <a href="services.html" class="active"><span data-lang="ar">الخدمات</span><span data-lang="en">Services</span></a>
+    <a href="projects.html"><span data-lang="ar">المشاريع</span><span data-lang="en">Projects</span></a>
+    <a href="media.html"><span data-lang="ar">المركز الإعلامي</span><span data-lang="en">Media Center</span></a>
+    <a href="contact.html"><span data-lang="ar">تواصل معنا</span><span data-lang="en">Contact</span></a>
     <div class="mobile-nav-cta"><a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></div>
   </nav>
   <main>
-    <section class="service-index-page"><div class="service-sheet"><div class="sheet-head"><h1>خدمات كندل</h1><div class="head-line"></div></div><div class="service-rows">
-      <div class="service-row"><span class="svc-no">01</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2>المقاولات والإنشاءات</h2><p>تنفيذ المشاريع وفق المخططات والمواصفات الفنية.</p></div></div>
-      <div class="service-row"><span class="svc-no">02</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2>الأعمال المدنية</h2><p>أعمال موقع متكاملة تشمل الخرسانة والعزل والتشطيبات الأساسية.</p></div></div>
-      <div class="service-row"><span class="svc-no">03</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2>التشطيبات الداخلية</h2><p>حلول تشطيب وتصميم داخلي تجمع بين الجمال والوظيفة.</p></div></div>
-      <div class="service-row"><span class="svc-no">04</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2>التشطيبات الخارجية</h2><p>واجهات ومعالجات خارجية بتفاصيل تنفيذ عالية الجودة.</p></div></div>
-      <div class="service-row"><span class="svc-no">05</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2>تسليم المفتاح</h2><p>إدارة الأعمال من البداية وحتى التسليم النهائي.</p></div></div>
-      <div class="service-row"><span class="svc-no">06</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2>أنظمة السلامة</h2><p>توريد وتركيب وصيانة حلول السلامة الخاصة بالمشاريع.</p></div></div>
+    <section class="service-index-page"><div class="service-sheet"><div class="sheet-head"><h1><span data-lang="ar">خدمات كندل</span><span data-lang="en">KNDL Services</span></h1><div class="head-line"></div></div><div class="service-rows">
+      <div class="service-row"><span class="svc-no">01</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2><span data-lang="ar">المقاولات والإنشاءات</span><span data-lang="en">Contracting &amp; Construction</span></h2><p><span data-lang="ar">تنفيذ المشاريع وفق المخططات والمواصفات الفنية.</span><span data-lang="en">Executing projects according to technical plans and specifications.</span></p></div></div>
+      <div class="service-row"><span class="svc-no">02</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2><span data-lang="ar">الأعمال المدنية</span><span data-lang="en">Civil Works</span></h2><p><span data-lang="ar">أعمال موقع متكاملة تشمل الخرسانة والعزل والتشطيبات الأساسية.</span><span data-lang="en">Integrated site works including concrete, insulation, and basic finishes.</span></p></div></div>
+      <div class="service-row"><span class="svc-no">03</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2><span data-lang="ar">التشطيبات الداخلية</span><span data-lang="en">Interior Fit-Out</span></h2><p><span data-lang="ar">حلول تشطيب وتصميم داخلي تجمع بين الجمال والوظيفة.</span><span data-lang="en">Fit-out and interior design solutions combining aesthetics and functionality.</span></p></div></div>
+      <div class="service-row"><span class="svc-no">04</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2><span data-lang="ar">التشطيبات الخارجية</span><span data-lang="en">Exterior Fit-Out</span></h2><p><span data-lang="ar">واجهات ومعالجات خارجية بتفاصيل تنفيذ عالية الجودة.</span><span data-lang="en">Facades and exterior treatments with high-quality execution details.</span></p></div></div>
+      <div class="service-row"><span class="svc-no">05</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2><span data-lang="ar">تسليم المفتاح</span><span data-lang="en">Turnkey Delivery</span></h2><p><span data-lang="ar">إدارة الأعمال من البداية وحتى التسليم النهائي.</span><span data-lang="en">Managing all works from inception to final handover.</span></p></div></div>
+      <div class="service-row"><span class="svc-no">06</span><div class="svc-img"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=900&auto=format&fit=crop"></div><div class="svc-text"><h2><span data-lang="ar">أنظمة السلامة</span><span data-lang="en">Safety Systems</span></h2><p><span data-lang="ar">توريد وتركيب وصيانة حلول السلامة الخاصة بالمشاريع.</span><span data-lang="en">Supply, installation, and maintenance of project safety solutions.</span></p></div></div>
     </div></div></section>
-    <section class="cta section reveal"><h2>هل تحتاج خدمة محددة؟</h2><p>راسل فريق كندل لتحديد نطاق الخدمة المناسب لمشروعك.</p><a class="btn primary" href="mailto:info@kndl.com.sa">تواصل معنا</a></section>
+    <section class="cta section reveal"><h2><span data-lang="ar">هل تحتاج خدمة محددة؟</span><span data-lang="en">Need a Specific Service?</span></h2><p><span data-lang="ar">راسل فريق كندل لتحديد نطاق الخدمة المناسب لمشروعك.</span><span data-lang="en">Contact the KNDL team to define the right service scope for your project.</span></p><a class="btn primary" href="mailto:info@kndl.com.sa"><span data-lang="ar">تواصل معنا</span><span data-lang="en">Contact Us</span></a></section>
   </main>
   <footer class="site-footer"><img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-symbol.png" alt="KNDL"><p>© KNDL Construction Co. — <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></p></footer><script src="script.js"></script>
 </body>

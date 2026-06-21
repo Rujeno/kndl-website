@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" class="lang-ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,26 +13,27 @@
   <header class="site-header">
     <a class="logo" href="index.html"><img src="KNDL_Website_Prototype/kndl_website_prototype/assets/kndl-logo.png" alt="KNDL"></a>
     <nav class="nav">
-      <a href="index.html">الرئيسية</a>
-      <a href="about.html">عن كندل</a>
-      <a href="services.html">الخدمات</a>
-      <a href="projects.html">المشاريع</a>
-      <a href="media.html">المركز الإعلامي</a>
-      <a class="active" href="contact.html">تواصل معنا</a>
+      <a href="index.html"><span data-lang="ar">الرئيسية</span><span data-lang="en">Home</span></a>
+      <a href="about.html"><span data-lang="ar">عن كندل</span><span data-lang="en">About</span></a>
+      <a href="services.html"><span data-lang="ar">الخدمات</span><span data-lang="en">Services</span></a>
+      <a href="projects.html"><span data-lang="ar">المشاريع</span><span data-lang="en">Projects</span></a>
+      <a href="media.html"><span data-lang="ar">المركز الإعلامي</span><span data-lang="en">Media Center</span></a>
+      <a class="active" href="contact.html"><span data-lang="ar">تواصل معنا</span><span data-lang="en">Contact</span></a>
     </nav>
     <a class="header-cta" href="mailto:info@kndl.com.sa">info@kndl.com.sa</a>
+    <button class="lang-toggle" id="langToggle">EN</button>
     <button class="hamburger" aria-label="القائمة" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </header>
   <div class="mobile-overlay"></div>
   <nav class="mobile-nav">
-    <a href="index.html">الرئيسية</a>
-    <a href="about.html">عن كندل</a>
-    <a href="services.html">الخدمات</a>
-    <a href="projects.html">المشاريع</a>
-    <a href="media.html">المركز الإعلامي</a>
-    <a href="contact.html" class="active">تواصل معنا</a>
+    <a href="index.html"><span data-lang="ar">الرئيسية</span><span data-lang="en">Home</span></a>
+    <a href="about.html"><span data-lang="ar">عن كندل</span><span data-lang="en">About</span></a>
+    <a href="services.html"><span data-lang="ar">الخدمات</span><span data-lang="en">Services</span></a>
+    <a href="projects.html"><span data-lang="ar">المشاريع</span><span data-lang="en">Projects</span></a>
+    <a href="media.html"><span data-lang="ar">المركز الإعلامي</span><span data-lang="en">Media Center</span></a>
+    <a href="contact.html" class="active"><span data-lang="ar">تواصل معنا</span><span data-lang="en">Contact</span></a>
     <div class="mobile-nav-cta"><a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a></div>
   </nav>
 
@@ -40,31 +41,31 @@
     <section class="page-hero reveal">
       <div>
         <span class="eyebrow">CONTACT US</span>
-        <h1>تواصل معنا</h1>
-        <p>تواصل مع فريق كندل لمناقشة متطلبات مشروعك أو طلب معلومات إضافية.</p>
+        <h1><span data-lang="ar">تواصل معنا</span><span data-lang="en">Contact Us</span></h1>
+        <p><span data-lang="ar">تواصل مع فريق كندل لمناقشة متطلبات مشروعك أو طلب معلومات إضافية.</span><span data-lang="en">Contact the KNDL team to discuss your project requirements or request additional information.</span></p>
       </div>
     </section>
 
     <section class="section grid-2 reveal">
       <div class="contact-box">
         <h2>KNDL Construction Co.</h2>
-        <p>الرياض – المملكة العربية السعودية<br>حي الواحة – طريق عثمان بن عفان</p>
+        <p><span data-lang="ar">الرياض – المملكة العربية السعودية<br>حي الواحة – طريق عثمان بن عفان</span><span data-lang="en">Riyadh – Kingdom of Saudi Arabia<br>Al Wahah District – Othman bin Affan Road</span></p>
         <br>
         <p>
-          <strong>الهاتف:</strong> 920004826<br>
-          <strong>البريد:</strong> <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a><br>
-          <strong>الموقع:</strong> www.kndl.com.sa
+          <strong><span data-lang="ar">الهاتف:</span><span data-lang="en">Phone:</span></strong> 920004826<br>
+          <strong><span data-lang="ar">البريد:</span><span data-lang="en">Email:</span></strong> <a href="mailto:info@kndl.com.sa">info@kndl.com.sa</a><br>
+          <strong><span data-lang="ar">الموقع:</span><span data-lang="en">Website:</span></strong> www.kndl.com.sa
         </p>
       </div>
       <div class="contact-box">
-        <h2>أرسل طلبك</h2>
+        <h2><span data-lang="ar">أرسل طلبك</span><span data-lang="en">Send Your Request</span></h2>
         <form class="form">
-          <input placeholder="الاسم الكامل">
-          <input placeholder="اسم الشركة">
-          <input placeholder="البريد الإلكتروني">
-          <input placeholder="رقم الجوال">
-          <textarea placeholder="تفاصيل الطلب"></textarea>
-          <a class="btn primary" href="mailto:info@kndl.com.sa">إرسال الطلب</a>
+          <input placeholder-ar="الاسم الكامل" placeholder-en="Full Name" placeholder="الاسم الكامل">
+          <input placeholder-ar="اسم الشركة" placeholder-en="Company Name" placeholder="اسم الشركة">
+          <input placeholder-ar="البريد الإلكتروني" placeholder-en="Email Address" placeholder="البريد الإلكتروني">
+          <input placeholder-ar="رقم الجوال" placeholder-en="Mobile Number" placeholder="رقم الجوال">
+          <textarea placeholder-ar="تفاصيل الطلب" placeholder-en="Request Details" placeholder="تفاصيل الطلب"></textarea>
+          <a class="btn primary" href="mailto:info@kndl.com.sa"><span data-lang="ar">إرسال الطلب</span><span data-lang="en">Send Request</span></a>
         </form>
       </div>
     </section>
