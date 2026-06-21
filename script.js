@@ -1,3 +1,23 @@
+// Language toggle
+const savedLang = localStorage.getItem('lang') || 'ar';
+applyLang(savedLang);
+
+function applyLang(lang) {
+  const html = document.documentElement;
+  html.classList.remove('lang-ar', 'lang-en');
+  html.classList.add('lang-' + lang);
+  html.dir = lang === 'en' ? 'ltr' : 'rtl';
+  html.lang = lang;
+  localStorage.setItem('lang', lang);
+  const btn = document.getElementById('langToggle');
+  if (btn) btn.textContent = lang === 'ar' ? 'EN' : 'ع';
+}
+
+document.getElementById('langToggle')?.addEventListener('click', () => {
+  const current = localStorage.getItem('lang') || 'ar';
+  applyLang(current === 'ar' ? 'en' : 'ar');
+});
+
 // Header scroll shadow
 const header = document.querySelector('.site-header');
 if (header) {
